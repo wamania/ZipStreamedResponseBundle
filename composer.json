@@ -1,14 +1,14 @@
 {
-    "name": "mynd/zip-streamed-response-bundle",
+    "name": "wamania/zip-streamed-response-bundle",
     "type": "symfony-bundle",
     "description": "A symfony Response to build and stream Zip on the fly",
     "keywords": ["zip", "symfony2", "response", "stream"],
-    "homepage": "https://github.com/mynd/ZipStreamedResponseBundle",
+    "homepage": "https://github.com/wamania/ZipStreamedResponseBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Guillaume Affringue",
-            "homepage": "https://github.com/mynd"
+            "homepage": "https://github.com/wamania"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
         "symfony/framework-bundle": "~2.5",
     },
     "autoload": {
-        "psr-0": { "Mynd\\ZipStreamedResponseBundle": "" }
+        "psr-0": { "Wamania\\ZipStreamedResponseBundle": "" }
     },
-    "target-dir": "Mynd/ZipStreamedResponseBundle"
+    "target-dir": "Wamania/ZipStreamedResponseBundle"
 }
