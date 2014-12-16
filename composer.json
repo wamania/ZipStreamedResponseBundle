@@ -1,0 +1,22 @@
+{
+    "name": "mynd/zip-streamed-response-bundle",
+    "type": "symfony-bundle",
+    "description": "A symfony Response to build and stream Zip on the fly",
+    "keywords": ["zip", "symfony2", "response", "stream"],
+    "homepage": "https://github.com/mynd/ZipStreamedResponseBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Affringue",
+            "homepage": "https://github.com/mynd"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.5",
+    },
+    "autoload": {
+        "psr-0": { "Mynd\\ZipStreamedResponseBundle": "" }
+    },
+    "target-dir": "Mynd/ZipStreamedResponseBundle"
+}
