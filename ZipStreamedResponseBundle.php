@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynd\ZipStreamedResponseBundle;
+namespace Wamania\ZipStreamedResponseBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
