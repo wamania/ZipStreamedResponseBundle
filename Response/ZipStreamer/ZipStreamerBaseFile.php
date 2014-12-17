@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynd\ZipStreamedResponseBundle\Response\ZipStreamer;
+namespace Wamania\ZipStreamedResponseBundle\Response\ZipStreamer;
 
 use Symfony\Component\HttpFoundation\File\File;
 

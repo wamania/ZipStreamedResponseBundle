@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynd\ZipStreamedResponseBundle\Response;
+namespace Wamania\ZipStreamedResponseBundle\Response;
 
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Symfony\Component\HttpFoundation\ResponseHeaderBag;

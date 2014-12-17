@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynd\ZipStreamedResponseBundle\Response\ZipStreamer;
+namespace Wamania\ZipStreamedResponseBundle\Response\ZipStreamer;
 
 /**
  * ZipStreamer represents a container for the files to add in the Zip file
