@@ -55,7 +55,7 @@ class ZipStreamerBigFile extends ZipStreamerBaseFile
 
         $fh = fopen($this->getPathname(), 'rb');
 
-        while ($data = fread($fh, $this->bufferSize)) {
+        while ($data = fread($fh, self::$bufferSize)) {
             hash_update($hash_crc, $data);
             $this->uncompressedLength += strlen($data);
 
