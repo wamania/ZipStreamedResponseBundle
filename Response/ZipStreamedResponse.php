@@ -11,10 +11,10 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * A ZipStreamedResponse uses a ZipStreamer object
  *
- * $zipStreamer = new ZipStreamer\ZipStreamer();
- * $zipStreamer->add(new ZipStreamer\ZipStreamerFile('/home/wamania/movie.mp4', 'movies/movie.mp4'));
+ * $zipStreamer = new ZipStreamer();
+ * $zipStreamer->add(new ZipStreamerFile('/home/wamania/movie.mp4', 'movies/movie.mp4'));
  * $zipStreamer->add('/home/wamania/photo.jpg', 'images/photo.jpg');
- * $zipStreamer->add(new ZipStreamer\ZipStreamerBigFile('/home/wamania/the-big-movie.mp4', 'movies/the-big-movie.mp4'));
+ * $zipStreamer->add(new ZipStreamerBigFile('/home/wamania/the-big-movie.mp4', 'movies/the-big-movie.mp4'));
  * $zipStreamer->addBigFile('/home/wamania/another-big-movie.mp4', 'movies/another-big-movie.mp4');
  *
  * return new ZipStreamedResponse($zipStreamer);
