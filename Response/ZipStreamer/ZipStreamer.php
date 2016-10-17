@@ -22,6 +22,14 @@ class ZipStreamer
     private $name;
 
     /**
+     *The filename ASCII encoded of the Zip file
+     *
+     * @var String
+     */
+    private $nameFallback;
+
+
+    /**
      * Files to add in zip file
      *
      * @var Array
@@ -54,10 +62,11 @@ class ZipStreamer
      *
      * @param String $name The filename of the Zip file
      */
-    public function __construct($name)
+    public function __construct($name, $nameFallback = '')
     {
         $this->files = array();
         $this->name = $name;
+        $this->nameFallback = $nameFallback;
         $this->offset = 0;
     }
 
@@ -159,6 +168,16 @@ class ZipStreamer
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * Getter for the fallback name of the zip file
+     *
+     * @return String
+     */
+    public function getNameFallback()
+    {
+        return $this->nameFallback;
     }
 
     /**

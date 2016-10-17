@@ -62,7 +62,9 @@ class ZipStreamedResponse extends StreamedResponse
 
         $this->setContentDisposition(
             ResponseHeaderBag::DISPOSITION_ATTACHMENT,
-            $this->zipStreamer->getName());
+            $this->zipStreamer->getName(),
+            $this->zipStreamer->getNameFallback()
+            );
 
         if ('HTTP/1.0' != $request->server->get('SERVER_PROTOCOL')) {
             $this->setProtocolVersion('1.1');
